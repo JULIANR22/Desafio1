@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reto 1</title>
+</head>
+<body>
+<main class="container">
+<section>
+ <div class="tarjeta">
+   <form class="form">
+    <img src="./img/MSIAlpha15-B5EEK__1_-removebg-preview.png" alt="Omen" height="auto" width="300px">
+    <p>Laptop gamer AMD</p>
+
+    <input type="number" id="cantidad" placeholder=" Cantidad">
+    
+    <select class="optColor" name="optColor" id="optColor">
+     <option value="0" selected> Color</option>
+     <option value="IndianRed">IndianRed</option>
+     <option value="DarkKhaki">DarkKhaki</option>
+     <option value="SlateBlue">SlateBlue</option>
+    </select>
+    
+    <h2>Precio: 400000</h2>
+    
+    <button type="button" class="btn" id="calcular">Calcular total</button>
+   </form>
+  </div>
+</section>
+    <section id="respuesta ">
+     <div class="respuesta">
+       <h3 class="total" id="total">Total: $0</h3>
+        <h3 class="cant" id="cant">Cantidad: 0</h3>
+         <h3 class="color" id="color">color: </h3>
+           <div id="colores"></div>
+            </div>
+ </section>
+</main>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
